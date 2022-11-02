@@ -2,7 +2,7 @@ import Nav from "./nav";
 
 export default function Layout({ children }){
     return(
-        <div>
+        <div className="mx-6 md:max-w-2x1 md-mx-auto font-roboto">
             <Nav />
             <main>{children}</main>
         </div>
